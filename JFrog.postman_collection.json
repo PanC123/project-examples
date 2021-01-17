@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "2287c51c-1fb9-4087-8b32-bbf5cc7df8ca",
+		"name": "JFrog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "guide-aql-get-all-jars",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "jfrog",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "JFrog@123",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "items.find(\n    {\n        \"repo\":{\"$eq\":\"guide-maven-dev-local\"},\n        \"name\":{\"$match\":\"*.jar\"}\n    }\n)"
+				},
+				"url": {
+					"raw": "http://pcblog.cn/artifactory/api/search/aql",
+					"protocol": "http",
+					"host": [
+						"pcblog",
+						"cn"
+					],
+					"path": [
+						"artifactory",
+						"api",
+						"search",
+						"aql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "guide-aql-get-all-images",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "jfrog",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "JFrog@123",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/plain"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "items.find(\n    {\n        \"repo\":{\"$eq\":\"guide-docker-dev-local\"},\n        \"@docker.repoName\" : { \"$eq\" : \"*\" }\n        \n    }\n)"
+				},
+				"url": {
+					"raw": "http://pcblog.cn/artifactory/api/search/aql",
+					"protocol": "http",
+					"host": [
+						"pcblog",
+						"cn"
+					],
+					"path": [
+						"artifactory",
+						"api",
+						"search",
+						"aql"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
