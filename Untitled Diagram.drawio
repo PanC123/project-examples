@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T05:54:51.771Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ZQ8PzKnH0ZUcke9gItgH" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T07:04:16.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3vM9s2_B5lokC5p5S-oO" version="17.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1589" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,6 +53,35 @@
         </mxCell>
         <mxCell id="yxVrX7eCYEhs_t2--PGS-8" value="将用户临时添加入源码仓库组" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yxVrX7eCYEhs_t2--PGS-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yxVrX7eCYEhs_t2--PGS-10" target="yxVrX7eCYEhs_t2--PGS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yxVrX7eCYEhs_t2--PGS-16" value="只复制Artifactory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yxVrX7eCYEhs_t2--PGS-12">
+          <mxGeometry x="-0.2442" y="-1" relative="1" as="geometry">
+            <mxPoint x="5" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yxVrX7eCYEhs_t2--PGS-10" value="电控云Artifactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yxVrX7eCYEhs_t2--PGS-11" value="Artifactory" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yxVrX7eCYEhs_t2--PGS-13" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yxVrX7eCYEhs_t2--PGS-14" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="525" y="680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yxVrX7eCYEhs_t2--PGS-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.62" y="790" as="sourcePoint" />
+            <mxPoint x="379.62" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="379.62" y="830" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
