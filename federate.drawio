@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T11:20:32.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="F-OQ8p9XTyNZQDphOqUl" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T14:16:02.646Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_6YVk-w1gUgYi7YOSHgf" version="20.5.3" type="github">
   <diagram id="aU3LlI7BI3JMirQAzEiF" name="第 1 页">
     <mxGraphModel dx="1425" dy="801" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,8 +108,8 @@
         <mxCell id="FrQW7oxbEgU2IKvYySrV-45" value="ZEKU用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#6E6E6E;" vertex="1" parent="1">
           <mxGeometry x="734.5" y="223" width="74" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FrQW7oxbEgU2IKvYySrV-46" value="&lt;h4&gt;说明：&lt;/h4&gt;1. 用户直接访问虚拟仓库，不会感知到本地仓库和远程仓库&lt;br&gt;2. 通过创建Replication，使用其中的Event replication功能，将文件实时的同步到对端仓库&lt;br&gt;（勾选Sync Deletes 以达到文件完全一致）&lt;br&gt;3. Replication中配置周期全量同步，确保文件无遗漏（周期可按天或者按周）&lt;br&gt;4. 创建远程仓库，代理对端的本地仓库。在文件同步不及时的时候，可以虚拟仓库会自动通过远程仓库拉取" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#6E6E6E;" vertex="1" parent="1">
-          <mxGeometry x="77" y="295" width="583" height="130" as="geometry" />
+        <mxCell id="FrQW7oxbEgU2IKvYySrV-46" value="&lt;p&gt;&lt;/p&gt;&lt;b&gt;说明：&lt;/b&gt;&lt;br&gt;1. 用户直接访问虚拟仓库，不会感知到本地仓库和远程仓库&lt;br&gt;2. 通过创建Push Replication，使用其中的Event replication功能，将文件实时的同步到对端仓库&lt;br&gt;（勾选Sync Deletes 以达到文件完全一致）&lt;br&gt;3. Replication中配置周期全量同步，确保文件无遗漏（周期可按天或者按周）&lt;br&gt;4. 创建远程仓库，代理对端的本地仓库。在文件同步不及时的时候，可以虚拟仓库会自动通过远程仓库拉取&lt;br&gt;&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#ea6b66&quot;&gt;&lt;b&gt;注意：&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(234, 107, 102);&quot;&gt;虚拟仓库只能根据仓库顺序进行解析，&lt;/span&gt;&lt;font style=&quot;&quot; color=&quot;#ea6b66&quot;&gt;如果2边有同名文件上传或者修改，无法按照上传时间下载最新的文件。&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#6E6E6E;" vertex="1" parent="1">
+          <mxGeometry x="80.5" y="305" width="601" height="154" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
