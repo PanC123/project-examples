@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T10:59:03.675Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ht9LLYNx3CA9oxJBhBuc" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T11:02:59.463Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lf_jlP-e6z2TJowHL0Dz" version="20.5.3" type="github">
   <diagram id="aU3LlI7BI3JMirQAzEiF" name="第 1 页">
     <mxGraphModel dx="1425" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,6 +52,21 @@
         </mxCell>
         <mxCell id="FrQW7oxbEgU2IKvYySrV-26" value="zeku-oppo-un-vr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="500" y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FrQW7oxbEgU2IKvYySrV-27" value="联邦仓库替代方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="290" y="45" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrQW7oxbEgU2IKvYySrV-28" value="图例" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#6E6E6E;" vertex="1" parent="1">
+          <mxGeometry x="715" y="130" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FrQW7oxbEgU2IKvYySrV-29" value="远程仓库" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontColor=#6E6E6E;" vertex="1" parent="1">
+          <mxGeometry x="710" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FrQW7oxbEgU2IKvYySrV-30" value="本地仓库" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#6E6E6E;" vertex="1" parent="1">
+          <mxGeometry x="710" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FrQW7oxbEgU2IKvYySrV-32" value="虚拟仓库" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=12;fontColor=#6E6E6E;strokeColor=#6E6E6E;" vertex="1" parent="1">
+          <mxGeometry x="710" y="240" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
