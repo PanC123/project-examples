@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T11:11:03.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ePunuG-RSlO1kG30yQpB" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T11:16:48.260Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3OGuAHQ7zCIfkvR-GILy" version="20.5.3" type="github">
   <diagram id="aU3LlI7BI3JMirQAzEiF" name="第 1 页">
     <mxGraphModel dx="1425" dy="801" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,17 +69,17 @@
         <mxCell id="FrQW7oxbEgU2IKvYySrV-27" value="联邦仓库替代方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="312" y="45" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FrQW7oxbEgU2IKvYySrV-28" value="图例" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#6E6E6E;" vertex="1" parent="1">
-          <mxGeometry x="750" y="290" width="50" height="30" as="geometry" />
+        <mxCell id="FrQW7oxbEgU2IKvYySrV-28" value="图例" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#6E6E6E;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="737" y="281" width="42" height="26" as="geometry" />
         </mxCell>
         <mxCell id="FrQW7oxbEgU2IKvYySrV-29" value="远程仓库" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontColor=#6E6E6E;" vertex="1" parent="1">
-          <mxGeometry x="745" y="320" width="60" height="30" as="geometry" />
+          <mxGeometry x="728" y="309" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FrQW7oxbEgU2IKvYySrV-30" value="本地仓库" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#6E6E6E;" vertex="1" parent="1">
-          <mxGeometry x="745" y="361" width="60" height="30" as="geometry" />
+          <mxGeometry x="728" y="350" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FrQW7oxbEgU2IKvYySrV-32" value="虚拟仓库" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=12;fontColor=#6E6E6E;strokeColor=#6E6E6E;" vertex="1" parent="1">
-          <mxGeometry x="745" y="401" width="60" height="30" as="geometry" />
+          <mxGeometry x="728" y="390" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FrQW7oxbEgU2IKvYySrV-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=12;fontColor=#6E6E6E;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0.005;entryY=0.791;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FrQW7oxbEgU2IKvYySrV-33" target="FrQW7oxbEgU2IKvYySrV-22">
           <mxGeometry relative="1" as="geometry">
@@ -105,8 +105,11 @@
         <mxCell id="FrQW7oxbEgU2IKvYySrV-44" value="OPPO用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#6E6E6E;" vertex="1" parent="1">
           <mxGeometry x="3.5" y="220" width="77" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FrQW7oxbEgU2IKvYySrV-45" value="Zeku用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#6E6E6E;" vertex="1" parent="1">
-          <mxGeometry x="736.5" y="223" width="69" height="26" as="geometry" />
+        <mxCell id="FrQW7oxbEgU2IKvYySrV-45" value="ZEKU用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#6E6E6E;" vertex="1" parent="1">
+          <mxGeometry x="734.5" y="223" width="74" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FrQW7oxbEgU2IKvYySrV-46" value="&lt;h4&gt;说明：&lt;/h4&gt;1. 用户直接访问虚拟仓库，不会感知到本地仓库和远程仓库&lt;br&gt;2. 通过创建Replication，将文件实时的同步到对端仓库（勾选Sync Deletes 以达到文件完全一致）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#6E6E6E;" vertex="1" parent="1">
+          <mxGeometry x="77" y="316" width="537" height="87" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
